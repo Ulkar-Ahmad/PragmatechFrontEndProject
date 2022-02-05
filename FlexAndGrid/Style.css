@@ -1,5 +1,5 @@
 body {
-    display: block important;
+    
     margin: 0;
     padding: 0;
 }
@@ -47,7 +47,14 @@ body {
     color: #fff;
 }
 
+.navbar{
 
+}
+
+.bg img{
+width: 1440px;
+height: 900px;   position: relative;
+}
 
     
 

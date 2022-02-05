@@ -47,14 +47,38 @@ body {
     color: #fff;
 }
 
-.navbar{
 
+
+.bg {
+    display:inline-block;
+    position: relative;
+   
+}
+.bg h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 600;
+    position: absolute;
+}
+.bg h1 {
+    font-size: 65px;
+    text-transform: none;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
 }
 
 .bg img{
 width: 1440px;
-height: 900px;   position: relative;
+height: 900px; 
+position: absolute; 
 }
-
+ .bg-p-text p{
+    color: #fff;
+    width: 62%;
+    font-size: 18px;
+    position: absolute; 
+}
+ 
     
 

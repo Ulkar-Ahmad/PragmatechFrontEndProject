@@ -46,6 +46,30 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+   
+}
+.navbar-brand img{
+    text-align: center;
+    
+}
+.navbar-items ul {
+    display: flex;
+    
+}
+.navbar-items ul li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.navbar-items ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+}
 
 
 
@@ -59,7 +83,7 @@ body {
     z-index: 888;
     position: relative;
     margin: 20px 10px 500px 100px;
-    padding: 100px 20px 200px 100px;
+    padding: 60px 7em;
     
 }
 .bg h5 {

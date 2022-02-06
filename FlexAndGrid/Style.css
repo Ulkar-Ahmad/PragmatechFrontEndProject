@@ -58,6 +58,9 @@ body {
 .text-image {
     z-index: 888;
     position: relative;
+    margin: 20px 10px 500px 100px;
+    padding: 100px 20px 200px 100px;
+    
 }
 .bg h5 {
     font-size: 20px;

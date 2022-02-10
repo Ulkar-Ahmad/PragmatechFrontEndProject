@@ -70,6 +70,11 @@ body {
     list-style-type: none;
     padding: 15px;
 }
+.btn {
+    border: 1px solid #0c5adb;
+    border-radius: 5px;
+
+}
 
 
 

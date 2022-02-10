@@ -1,0 +1,109 @@
+
+.main-btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    flex-wrap: wrap;
+    margin: o auto;
+}
+
+
+
+.main-btn button {
+ border: none;
+padding: 14px 24px;
+border-radius: 5px;
+font-size: 1rem;
+outline: none;
+box-shadow: 0 0 10px rgb(128, 128,128, 0.377);
+margin: 10px;
+transition: 1s;
+}
+.btn1:hover{
+    background-color: var(--purpledark);
+}
+.btn2:hover{
+    background-color: var(--graydark);
+}
+.btn3:hover{
+    background-color: var(--greendark);
+}
+.btn4:hover{
+    background-color: var(--orangedark);
+}
+.btn5:hover{
+    background-color: var(--yellowdark);
+}
+.btn6:hover{
+    background-color:var(--bluedark);
+}
+.btn7:hover{
+    background-color: var(--whitedark);
+
+}
+.btn8:hover{
+    background-color: var(--blackdark);
+}
+
+/* Variables */
+:root {
+    --purple:  #5e2572;
+    --gray:  #f0f3f5;
+    --green: #00c689;
+    --orange: #fc7242;
+    --yellow: #ffc100;
+    --blue: #4d13d1;
+    --white: #f8f9fa;
+    --black: #4f4a60;
+    --purpledark: #290a34;
+    --graydark: #a3a5a7;
+    --greendark:#0a8962;
+    --orangedark:#d74512;
+    --yellowdark:#d9a50a;
+    --bluedark: #5930d3;
+    --whitedark:#dadfe5;
+    --blackdark:#5e5a6a;
+
+}
+/* Color */
+.color-w{
+    color: #fff;
+}
+.color-b {
+    color: black;
+}
+/* size */
+
+
+.btn1 {
+   background-color: var(--purple); 
+
+}
+
+  
+ .btn2 {
+     background-color: var(--gray);
+    
+ }
+.btn3{
+    background-color: var(--green);
+}
+.btn4{
+    background-color: var(--orange);
+}
+.btn5 {
+    background-color: var(--yellow);
+}
+.btn6{
+    background-color: var(--blue);
+}
+.btn7{
+    background-color: var(--white);
+}
+.btn8{
+    background-color: var(--black);
+}
+.btn9{
+    background-color: white;
+    color: blue;
+}

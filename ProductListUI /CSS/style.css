@@ -8,32 +8,55 @@
     padding-top: 50px;
     margin: o auto;
    
+   
   
 }
-
-figure {
-    width: 300px;
-   margin: 0;
-
+.display #card:hover {
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px rgb(116, 112, 112);
 }
 
+
+figure {
+    width: 350px;
+    margin: 0;
+  
+  
+
+}
+figcaption {
+    padding: 10px;
+}
 .image {
     position: relative;
     transition: all 0.5s ease-in-out;
-    height: 400px;
+    height: 450px;
+   
 }
 
 .image img{
-    width: 300px;
+    width: 100%;
     transition: all 0.5s ease-in-out;
-    position: absolute;
+    position: absolute; 
+    padding: 10px;
   
+}
+.image span {
+    background: #f34723;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    padding: 5px;
 }
 .image:hover  .image-2{
     transition: all 0.5s ease-in-out;
       visibility: hidden;
       opacity: 0;
    
+}
+.icon {
+    padding: 10px;
 }
 #card:hover  a{
     background: #ebb5ac;
@@ -60,6 +83,9 @@ figure {
     padding: 15px 0;
     letter-spacing: 2px;
 }
+.text h3:hover {
+    color: #ebb5ac;
+}
 .text p{
    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,6 +94,9 @@ figure {
     width: 90%;
     padding: 20px 0;
    
+}
+.text p s {
+    color: rgb(82, 79, 79);
 }
 .text a{
     background: black;

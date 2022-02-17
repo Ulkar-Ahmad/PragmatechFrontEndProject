@@ -1,0 +1,78 @@
+
+
+
+
+.display{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+    margin: o auto;
+   
+  
+}
+
+figure {
+    width: 300px;
+   margin: 0;
+
+}
+
+.image {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    height: 400px;
+}
+
+.image img{
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+  
+}
+.image:hover  .image-2{
+    transition: all 0.5s ease-in-out;
+      visibility: hidden;
+      opacity: 0;
+   
+}
+.icon{
+    padding-top: 20px;
+}
+.icon i[type="yellow"]{
+   color: rgb(223, 223, 7);
+}
+.icon i[type="gray"]{
+    color: rgba(128, 128, 128, 0.788);
+ }
+.text{
+    padding-top: 20px;
+  
+}
+.text h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(82, 79, 79);
+    font-weight: 400;
+    margin: o 15px;
+    padding: 15px 0;
+    letter-spacing: 2px;
+}
+.text p{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(20, 19, 19);
+    font-weight: 400;
+    width: 90%;
+    padding: 20px 0;
+   
+}
+.text a{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+   
+
+}

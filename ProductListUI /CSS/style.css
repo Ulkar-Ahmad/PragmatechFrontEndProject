@@ -1,5 +1,11 @@
 
+:root{
+--pink: #ebb5ac;
+--white: #FFF;
+--black: #000;
 
+
+}
 
 
 .display{
@@ -18,7 +24,7 @@
 
 
 figure {
-    width: 350px;
+    width: 330px;
     margin: 0;
   
   
@@ -55,15 +61,52 @@ figcaption {
       opacity: 0;
    
 }
-.icon {
-    padding: 10px;
+.icon-img{
+    position: absolute;
+    width: 35px;
+    right: 30px;
+    left: auto;
+    top: 10px;
+    bottom: auto;
+    margin: 10px 0;
+
 }
-#card:hover  a{
+
+.icon-img i {
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 45px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.icon-img:hover .icon-hidden i{
+    opacity: 1;
+    transition: 0.5s;
+    
+    
+}
+
+
+.icon-hidden i{
+    opacity: 0;
+}
+
+
+#card:hover a{
     background: #ebb5ac;
     color: black;
+    opacity: 1;
 }
+ /* .text a:hover{
+     opacity: 0;
+    background: #ebb5ac;
+    color: #000;
+    visibility: visible; } */
+
+
 .icon{
     padding-top: 20px;
+    margin: 10px;
 }
 .icon i[type="pink"]{
    color: #ebb5ac;
@@ -98,19 +141,32 @@ figcaption {
 .text p s {
     color: rgb(82, 79, 79);
 }
-.text a{
+.text a {
+   
+    background: #ebb5ac;
+    color:#000;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   opacity: 0;
+
+}
+#card a:hover {
+   
     background: black;
     color: #fff;
     text-decoration: none;
     width: 100%;
     display: inline-block;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 18px;
    font-weight: 700;
-}
-.text a:hover {
-    background: #fff;
    
 }

@@ -42,8 +42,8 @@ figure {
 .icon{
     padding-top: 20px;
 }
-.icon i[type="yellow"]{
-   color: rgb(223, 223, 7);
+.icon i[type="pink"]{
+   color: #ebb5ac;
 }
 .icon i[type="gray"]{
     color: rgba(128, 128, 128, 0.788);

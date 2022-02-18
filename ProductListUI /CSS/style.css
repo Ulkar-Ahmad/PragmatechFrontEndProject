@@ -36,7 +36,7 @@ figcaption {
 .image {
     position: relative;
     transition: all 0.5s ease-in-out;
-    height: 450px;
+    height: 400px;
    
 }
 
@@ -52,7 +52,7 @@ figcaption {
     color: #fff;
     position: absolute;
     right: 20px;
-    bottom: 25px;
+    bottom: 5px;
     padding: 5px;
 }
 .image:hover  .image-2{
@@ -66,18 +66,35 @@ figcaption {
     width: 35px;
     right: 30px;
     left: auto;
-    top: 10px;
+    top: 20px;
     bottom: auto;
-    margin: 10px 0;
+    /* margin: 10px 0; */
+}
+.icon-img i{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.icon-img i:hover{
+    /* background: var(--pink); */
+    background-color:pink;
+    border-radius: 45px;
+
+    /* padding: 10px;
+    margin: 10px 0; */
+}
+
+
 
 }
 
-.icon-img i {
+.icon-img i{
     background: #fff;
     border: 3px solid #fff;
     border-radius: 45px;
     padding: 10px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .icon-img:hover .icon-hidden i{
     opacity: 1;

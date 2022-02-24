@@ -39,7 +39,7 @@ body {
   margin: 40px 30px auto;
   padding: 30px;
   border: 3px solid orange;
-  border-radius: 65px;
+  border-radius: 100%;
   color: orange;
 }
 
@@ -48,11 +48,30 @@ body {
   margin: 30px auto;
 }
 
+.box:hover {
+  background-color: orange;
+  color: White;
+}
+
+.box:hover i {
+  border: 3px solid White;
+  color: White;
+}
+
+.box:hover p {
+  color: White;
+}
+
+.box:hover button {
+  background-color: White;
+  color: orange;
+}
+
 .btn {
   border: none;
   text-decoration: none;
   background-color: orange;
-  color: #FFF;
+  color: White;
   padding: 15px 35px;
   margin: 40px auto;
 }

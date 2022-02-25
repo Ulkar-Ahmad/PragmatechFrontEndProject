@@ -31,8 +31,9 @@ body {
   text-align: center;
 }
 
-.container .box h1 {
-  margin: 20px auto;
+.container .box h2 {
+  font-family: arial;
+  letter-spacing: 1px;
 }
 
 .container .box i {
@@ -46,6 +47,8 @@ body {
 .container .box p {
   color: gray;
   margin: 30px auto;
+  font-family: arial;
+  letter-spacing: 1px;
 }
 
 .box:hover {

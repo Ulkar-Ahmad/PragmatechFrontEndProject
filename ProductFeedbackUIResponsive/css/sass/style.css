@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#headsection {
+  width: 100%;
+  padding: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.roadmaphead {
+  background: #373F68;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.header div {
+  color: white;
+}
+
+.header div a {
+  color: white;
+}
+
+.header h2 {
+  color: white;
+}
+
+button {
+  background: #ad1fea;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hidden span {
+  padding: 0 2rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+#headsection {
+    width:100%;
+    padding: $p-2;
+
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.roadmaphead {
+   background: #373F68;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: $p-2 20px;
+}

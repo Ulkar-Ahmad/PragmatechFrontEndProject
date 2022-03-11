@@ -1,0 +1,35 @@
+.header {
+  div {
+    color: white;
+
+    a {
+      color: white;
+    }
+  }
+  h2 {
+    color: white;
+  }
+}
+button {
+  background: #ad1fea;
+  border-radius: $p-2;
+  border: none;
+  padding: $p-1 15px;
+  color: white;
+  font-weight: bold;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+.hidden {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding:2rem ;
+      
+    span {
+       padding: 0 2rem;
+    }
+  
+}

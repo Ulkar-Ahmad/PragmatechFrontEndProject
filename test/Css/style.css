@@ -1,0 +1,30 @@
+.btn{
+    margin: 10px;
+}
+.btn button{
+    /* border: 0; */
+    border-color: #fff;
+    padding: 15px 70px;
+    font-size: 2rem;
+    outline: none;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.377);
+    transition: 1s;
+}
+.btn button:hover{
+    background-color: rgb(196, 11, 48);
+}
+
+
+
+
+
+.main{
+    display:flex;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

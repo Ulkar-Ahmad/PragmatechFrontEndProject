@@ -55910,11 +55910,46 @@ for (let i in countries) {
 }
 
 console.log(cities);
-
+let country = []
 let count = []
-for (let i in cities) {
-    count.push(cities[i])
-    count.sort((a,b) => a-b)
-}
+// let max;
+let maxCountry = ''
+function maxCities() {
 
-console.log(count.slice(-1));
+    for (let i in cities) {
+        count.push(cities[i])
+        country.push(i)
+        max = count.sort(a,b) => (a-b).slice(-1)
+        
+    }
+
+    console.log(count, country, max);
+
+//     for(let j=0; j < country.length; j++) {
+//         if(count[j] === max) {
+//             maxCountry = cities[j]
+//         } 
+//     }
+
+//      return maxCountry
+// } 
+
+// let c = maxCities()
+
+
+// console.log(c);
+
+// function countryCityMax(object) {
+//     let countryArrCity = Object.values(object);
+//     let countryArrAll = Object.entries(object);
+//     let cityCount = 0;
+//     let countryName;
+//       for (let i = 0; i < countryArrCity.length; i++) {
+//         if (countryArrCity[i].length > cityCount) {
+//           cityCount = countryArrCity[i].length;
+//           countryName = countryArrAll[i][0];
+//         }
+//       }
+//       return console.log(countryName);
+//     }
+//     countryCityMax(countries);
